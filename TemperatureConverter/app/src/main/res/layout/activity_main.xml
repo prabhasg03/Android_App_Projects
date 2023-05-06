@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tmp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C88CE6"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inp"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="600dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Enter Input Value"
+        android:inputType="numberDecimal"
+        android:textColorHint="#4A148C"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="onclick"
+        android:text="Calculate"
+        app:layout_constraintBottom_toTopOf="@+id/cel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/cel"
+        android:layout_width="278dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="37dp"
+        android:text="Celsius = 0 °C"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/fah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/fah"
+        android:layout_width="277dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="39dp"
+        android:text="Fahrenheit = 32°F"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/kev"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/kev"
+        android:layout_width="275dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="172dp"
+        android:text="Kelvin = 273.15 K"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/opt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Enter Option"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="1"
+        android:textAlignment="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inp"
+        app:layout_constraintVertical_bias="0.638"
+        tools:ignore="HardcodedText" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="inp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="277dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="113dp"
+        android:text="Options:1-Celsius,2-Fahrenheit,3-Kelvin"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kev" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
