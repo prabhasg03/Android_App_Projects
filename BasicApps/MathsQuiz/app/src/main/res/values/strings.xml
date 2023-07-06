@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Math Quiz</string>
+
+    <!-- MainActivity -->
+    <string name="start">Start</string>
+    <string name="exit">Exit</string>
+
+    <!-- QuizActivity -->
+    <string name="question_placeholder">Question %1$d: %2$d %3$s %4$d?</string>
+    <string name="option_placeholder">%d</string>
+</resources>
