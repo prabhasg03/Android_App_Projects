@@ -21,7 +21,4 @@ This app is designed to provide a convenient way for users to perform temperatur
 
 ## Video Demonstration
 
-
-
-https://github.com/prabhasg03/Android_App_Projects/assets/121883587/098cb045-d262-43ac-8680-d038c97fb414
-
+https://github.com/prabhasg03/Android_App_Projects/assets/121883587/e346c0a2-8aa5-4f02-a275-56d3f274cfe1
