@@ -1,7 +1,7 @@
 # DownloadImageUsingAsync
 
 ## Description
-<p>DownloadImageUsingAsync is a simple Android application that demonstrates how to download an image asynchronously from a URL and display it in an ImageView. This app is useful for developers who want to learn about AsyncTask for performing background tasks in Android applications.</p>
+<p>DownloadImageUsingAsync is a simple Android application that demonstrates how to download an image asynchronously from a URL and display it in an ImageView. This app is useful for developers who want to learn about AsyncTask for performing background tasks in Android applications.It requires internet to function.</p>
 
 ## Features
 - **Asynchronous image downloading:** The app downloads images from a URL asynchronously in the background.
