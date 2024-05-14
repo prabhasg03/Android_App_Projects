@@ -18,9 +18,4 @@ These projects are made in Pixel Device layout with API version 33. These are te
 - **TicTacToe**: A Tic Tac Toe game.
 
 ## Usage
-
 Each project has its own directory containing the source code. You can clone this repository and open the projects in Android Studio to explore and run them.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
