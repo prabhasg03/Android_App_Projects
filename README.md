@@ -4,7 +4,7 @@
 
 # Projects
 
-# CountingApp
+# [CountingApp](https://github.com/prabhasg03/Android_App_Projects/tree/master/BasicApps/CountingApp)
 
 ## Description
 <p>CountingApp is a simple counting application for Android devices. It allows users to tap on buttons to hear numbers spoken aloud in different languages. The app utilizes the MediaPlayer component to play audio files corresponding to the numbers in various languages.</p>
