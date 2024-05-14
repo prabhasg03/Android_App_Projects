@@ -1,6 +1,7 @@
 # Android_App_Projects
 <p>These Projects are done by Guda Sri Venkata Prabhas using Android Studio Flamingo | 2022.2.1 Patch 1 tool.</p>
-<p></p>These projects are made in Pixel Device layout with API version 33. These are tested in virtual device "Pixel with Tiramisu image"</p>
+<p>These projects are made in Pixel Device layout with API version 33. These are tested in virtual device "Pixel with Tiramisu image"</p>
+<p>Click on each title, for more detailed information about each application</p>
 
 # Projects
 
