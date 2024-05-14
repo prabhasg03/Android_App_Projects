@@ -21,6 +21,4 @@ This app is designed for entertainment and educational purposes to test users' m
 
 ## Video Demonstration
 
-
-https://github.com/prabhasg03/Android_App_Projects/assets/121883587/cc321957-c43a-4c3f-8b07-fdbfd219f747
-
+https://github.com/prabhasg03/Android_App_Projects/assets/121883587/c296dc6c-8037-4ab5-b2dc-be7ae8afe01d
